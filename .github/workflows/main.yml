@@ -1,5 +1,5 @@
 name: CICD for Serverless Application
-run-name: ${{ github.actor }} is doing CICD for Serverless Application
+run-name: ${{ github.actor }} is doing CICD for serverless application
 
 on:
   push:
@@ -9,7 +9,7 @@ jobs:
   pre-deploy:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "The job is automatically triggerd by a ${{ github.event_name }} event."
+      - run: echo "The job is automatically triggered by a ${{ github.event_name }} event."
 
   install-dependencies:
     runs-on: ubuntu-latest
@@ -18,3 +18,13 @@ jobs:
         uses: actions/checkout@v3
       - name: Run installation of dependencies commands
         run: npm install
+
+  unit-testing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Run installation of dependencies commands
+        run: npm install
+      - name: Run unit testing command
+        run: npm test

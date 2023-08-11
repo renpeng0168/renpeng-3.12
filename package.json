@@ -4,7 +4,7 @@
   "description": "Objective: The goal of this activity is to create a serverless API using the Serverless Framework, which allows users to perform CRUD (Create, Read, Update, and Delete) operations on notes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "serverless": "^3.34.0"
   },
   "devDependencies": {
+    "jest": "^29.6.2",
     "serverless-offline": "^12.0.4"
   }
 }
