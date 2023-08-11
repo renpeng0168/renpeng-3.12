@@ -20,7 +20,7 @@ jobs:
       - name: Run installation of dependencies commands
         run: npm install
 
-  unit-testing:
+ unit-testing:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
