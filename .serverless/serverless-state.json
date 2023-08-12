@@ -174,7 +174,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/renpeng-3.12/dev/1691805228515-2023-08-12T01:53:48.515Z/renpeng-3.12.zip"
+                "S3Key": "serverless/renpeng-3.12/dev/1691805522492-2023-08-12T01:58:42.492Z/renpeng-3.12.zip"
               },
               "Handler": "index.handler",
               "Runtime": "nodejs18.x",
@@ -479,7 +479,7 @@
     "artifact": "/Users/pren/renpeng-3.12/.serverless/renpeng-3.12.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/renpeng-3.12/dev/1691805228515-2023-08-12T01:53:48.515Z",
+    "artifactDirectoryName": "serverless/renpeng-3.12/dev/1691805522492-2023-08-12T01:58:42.492Z",
     "artifact": "renpeng-3.12.zip"
   }
 }
